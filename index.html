@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Haven</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  
+  <header>
+    <div class="header-inner">
+      <h1><i class='bx bx-book'></i> Book Haven</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#catalog">Catalog</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-text">
+        <h2>Discover Your Next Favorite Book</h2>
+        <p>Dive into thousands of stories from every genre imaginable.</p>
+        <a href="#catalog" class="btn">Browse Catalog</a>
+      </div>
+    </section>
+
+    <section id="catalog" class="catalog-section">
+      <h2>Featured Books</h2>
+      <div class="book-list">
+        <div class="book-card">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg" alt="The Great Gatsby">
+          <h3>The Great Gatsby</h3>
+          <p>F. Scott Fitzgerald</p>
+        </div>
+
+        <div class="book-card">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/71UwSHSZRnS.jpg" alt="The Alchemist">
+          <h3>The Alchemist</h3>
+          <p>Paulo Coelho</p>
+        </div>
+
+        <div class="book-card">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg" alt="Atomic Habits">
+          <h3>Atomic Habits</h3>
+          <p>James Clear</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About Us</h2>
+      <p>
+        At Book Haven, we believe in the power of knowledge and imagination.  
+        Our mission is to bring readers closer to the stories and wisdom that inspire growth and creativity.
+      </p>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message"></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Book Haven. All rights reserved.</p>
+  </footer>
+</body>
+</html>
